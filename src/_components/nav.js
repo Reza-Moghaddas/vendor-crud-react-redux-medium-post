@@ -85,12 +85,20 @@ class Navigation extends React.Component {
                         <ListItemText primary="Home"/>
                     </ListItem>
 
-                    <ListItem button component='a' href="/vendor">
+                    {/* <ListItem button component='a' href="/vendor">
                         <ListItemIcon>
                             <VendorIcon />
                         </ListItemIcon>
                         <ListItemText primary="Vendors"/>
+                    </ListItem> */}
+
+                    <ListItem button component='a' href="/threatScenario">
+                        <ListItemIcon>
+                            <VendorIcon />
+                        </ListItemIcon>
+                        <ListItemText primary="Threat Scenario"/>
                     </ListItem>
+
 
                     <ListItem button onClick={(event)=>{this.logout()}}>
                         <ListItemIcon>

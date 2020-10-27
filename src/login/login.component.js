@@ -85,6 +85,7 @@ class Login extends Component {
       const { classes } = this.props;
       return (
         <div className="login-margin">
+            <img src="https://forwardsecurity.com/wp-content/uploads/2020/05/xumi-logo-large.png" width="117" height="30" alt="" class="wp-image-5901 alignnone size-full" />
             <Grid container spacing={24}>
                 <Grid item xs={3}>
                 </Grid>

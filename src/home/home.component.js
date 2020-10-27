@@ -52,11 +52,12 @@ class Home extends Component {
 
         <div className={classes.root}>
             <div className={classes.appFrame}>
-            <AppBar/>
+            <AppBar/>            
             <Nav />
             <main className={classes.content}>
-                <div className={classes.toolbar} />
+                <div className={classes.toolbar} />                
                 <Typography>{'Home'}</Typography>
+                <meta name="twitter:image" content="https://forwardsecurity.com/wp-content/uploads/2020/05/FwdSec_logo_colorA-1024x512-1.png" />
             </main>
             </div>
         </div>
